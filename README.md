@@ -41,3 +41,30 @@ else{
 }
     return 0;
 }
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+// program kriteria umur
+int angka1, angka2, angka3, angka4, angka5,RT;
+
+cout << "masukan angka "<<endl;
+cin >> angka1; 
+cout << "masukan angka "<<endl;
+cin >> angka2 ;
+cout << "masukan angka "<<endl;
+cin >> angka3 ;
+cout << "masukan angka "<<endl;
+cin >> angka4 ;
+cout << "masukan angka "<<endl;
+cin >> angka5 ;
+
+RT = (angka1 + angka2 + angka3 + angka4 + angka5) / 5;
+    
+cout << RT;
+
+    return 0;
+}
