@@ -1,0 +1,22 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+string paswordAsli = "123";
+string namaAsli = "ady";
+string pasword, nama;
+
+cout << "masukan nama: ";
+cin >> nama;
+cout << "tuliskan password: ";
+cin >> pasword;
+
+if(pasword == paswordAsli & nama == namaAsli){
+    cout << "benar";
+}
+else{
+    cout << "salah, coba lagi";
+}
+    return 0;
+}
