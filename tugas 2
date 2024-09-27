@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka, JAngka;
+    float total;
+
+    cout << "Masukkan angka (ketik 0 untuk selesai): ";
+    cin >> angka;
+
+    while (angka != 0) {
+        total += angka; 
+        JAngka ++; 
+
+        cout << "Masukkan angka (ketik 0 untuk selesai): ";
+        cin >> angka;
+    }
+
+    float average = total / JAngka;
+    
+    if (JAngka == 0) {
+        cout << "Tidak ada angka yang dimasukkan." << endl;
+    } else {
+        cout << "Rata-rata dari angka yang dimasukkan adalah: " << average << endl;
+    }
+
+    return 0;
+}
